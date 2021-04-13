@@ -1,0 +1,307 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#nav{
+  
+  font-size: large;
+  font-weight: bold;
+  margin-top: 30px;;
+  height:50px;
+  width:98%;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  border:1px solid black;
+  position: relative;
+  display: block;
+  background-color: #3d7bf8;
+  color: white;
+  
+}
+#txt{
+  margin-top: 10px;
+  margin-left: 4px;
+  position: absolute;
+}
+
+li{
+  display: inline;
+  float: right;
+}
+a{
+  padding:8px;
+  text-decoration: none;
+  color: white;
+}
+#studentTab{
+  margin-top: 100px;
+  color:black;
+}
+#studentTab a{
+  color:rgb(29, 16, 206);
+  margin-top: -50px;
+  position: absolute;
+}
+#backBtn{
+  color:rgb(29, 16, 206);
+  margin-top: 10px;
+  position: absolute;
+  font-weight: bold;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  font-size: 17px;
+}
+td{
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#editStd{
+  width:30px;
+  height:20px;
+  margin-left: -20px;
+  position: relative;
+}
+#editStd:hover{ 
+  cursor: pointer; 
+}
+
+#deleteStd{
+  width:30px;
+  height:17px;
+  margin-right: -4px;
+  padding-left: 20px;
+  position: absolute;
+}
+
+#deleteStd:hover{ 
+  cursor: pointer; 
+}
+
+#guide{
+  margin-top:20px;
+}
+#steps{
+  align-items: center;
+}
+#box1{
+  height:280px;
+  width:300px;
+  border:1px solid black;
+  margin-left: 170px;
+  margin-top: 0px;
+  display:block;
+  float:left;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 5px 10px #c0bdbd;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+#box1:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+#box2{
+  height:280px;
+  width:300px;
+  border:1px solid black;
+  margin-left: 500px;
+  margin-top: 0px;
+  display:block;
+  float:left;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 5px 10px #c0bdbd;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+#box2:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+#box3{
+  height:280px;
+  width:300px;
+  border:1px solid black;
+  margin-left: 830px;
+  margin-top: 0px;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 5px 10px #c0bdbd;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+#box3:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+#listOfstd{
+height:40px;
+width:180px;
+margin-top: 50px;
+background-color: rgb(54, 134, 253);
+font-family: arial, sans-serif;
+font-weight: bold;
+border:none;
+color: whitesmoke;
+}
+#searchbtn{
+  height:40px;
+  width:180px;
+  margin-top: 50px;
+  background-color: rgb(54, 134, 253);
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  border:none;
+  color: whitesmoke;
+}
+#registernow{
+  height:40px;
+  width:180px;
+  margin-top: 60px;
+  background-color: rgb(54, 134, 253);
+font-family: arial, sans-serif;
+font-weight: bold;
+border:none;
+color: whitesmoke;
+}
+
+#addForm h2{
+  margin-left: 600px;
+}
+
+#addForm label{
+  margin-left: 500px;
+}
+
+#addFormTab{
+  height:100px;
+  width:500px;
+  margin-left: 400px;
+
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#register{
+  height:40px;
+  width:180px;
+  background-color: rgb(32, 110, 226);
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  border:none;
+  color: whitesmoke;
+  margin-top: 2px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+#backBtn1{
+  color:rgb(29, 16, 206);
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -60px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button{
+  cursor: pointer;
+}
+
+#dropdown{
+  width:170px;
+  height:40px;
+  margin-left: 400px;
+}
+
+#searchTxt{
+  margin-left: 400px;
+}
+
+#val{
+  width:230px;
+  height:40px;
+  margin-left: 10px;
+}
+
+#searchBox{
+  width:180px;
+  height:40px;
+  background-color: rgb(66, 136, 240);
+  color:white;
+  border:none;
+  margin-left: 10px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#edit{
+  color:rgb(29, 16, 206);
+  font-weight: bold;
+  margin-top: -10px;
+  margin-left: -50px;
+  position: absolute;
+}
